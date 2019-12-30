@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a4262d91-cb6a-48f4-803f-21414cae5774" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VY5LGpEdwK8DhqcyKOtRKAnRvC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Quazrdemo2" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.QuartzClusterApplication">
+    <configuration name="Demo3Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo (1) (Quazrdemo2)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="quazrdemo2.demo.Demo3Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fl.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Quartz" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.quartz.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuartzClusterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Quartz" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ctg.test.quartz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ctg.test.quartz.QuartzClusterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.QuartzClusterApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a4262d91-cb6a-48f4-803f-21414cae5774" name="Default Changelist" comment="" />
+      <created>1577417129509</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577417129509</updated>
+      <workItem from="1577417133698" duration="5093000" />
+      <workItem from="1577423683668" duration="5594000" />
+      <workItem from="1577509480003" duration="111000" />
+      <workItem from="1577509714872" duration="539000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577423703784">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577423703784" />
+    <state x="623" y="448" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1577419139470">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="448" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577419139470" />
+    <state x="740" y="212" key="FileChooserDialogImpl" timestamp="1577424849815">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="212" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1577424849815" />
+    <state width="1877" height="145" key="GridCell.Tab.0.bottom" timestamp="1577510253949">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="145" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577510253949" />
+    <state width="1877" height="145" key="GridCell.Tab.0.center" timestamp="1577510253949">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="145" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577510253949" />
+    <state width="1877" height="145" key="GridCell.Tab.0.left" timestamp="1577510253949">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="145" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577510253949" />
+    <state width="1877" height="145" key="GridCell.Tab.0.right" timestamp="1577510253949">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="145" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577510253949" />
+    <state width="1877" height="145" key="GridCell.Tab.1.bottom" timestamp="1577510253950">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="145" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577510253950" />
+    <state width="1877" height="145" key="GridCell.Tab.1.center" timestamp="1577510253949">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="145" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577510253949" />
+    <state width="1877" height="145" key="GridCell.Tab.1.left" timestamp="1577510253949">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="145" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577510253949" />
+    <state width="1877" height="145" key="GridCell.Tab.1.right" timestamp="1577510253949">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="145" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577510253949" />
+    <state x="600" y="223" key="NewModule_or_Project.wizard" timestamp="1577424851004">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="600" y="223" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1577424851004" />
+    <state x="440" y="97" key="SettingsEditor" timestamp="1577424856048">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="97" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1577424856048" />
+    <state x="759" y="300" key="chooseDestDirectoryDialog" timestamp="1577419069267">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="759" y="300" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577419069267" />
+    <state x="334" y="227" key="new project wizard" timestamp="1577430367173">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="227" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1577430367173" />
+  </component>
+</project>
