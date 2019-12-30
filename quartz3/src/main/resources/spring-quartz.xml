@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!-- 定义调用对象和调用对象的方法 -->
+    <bean id="SpringQtzJobDetail"
+          class="org.springframework.scheduling.quartz.JobDetailFactoryBean">
+        <property name="jobClass" value="com.quartz.quartz.SpringQtz"/>
+        <property name="durability" value="true"/>
+
+        <property name="group" value="job_work"/>
+        <property name="name" value="job_work_name"/>
+    </bean>
+    <bean id="SpringQtzJobDetail1"
+          class="org.springframework.scheduling.quartz.JobDetailFactoryBean">
+        <property name="jobClass" value="com.quartz.quartz.SpringQtz"/>
+        <property name="durability" value="true"/>
+
+        <property name="group" value="job_work1"/>
+        <property name="name" value="job_work_name1"/>
+    </bean>
+
+
+    <!-- ======================== 调度触发器 ======================== -->
+    <bean id="CronTriggerBean"
+          class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+        <property name="jobDetail" ref="SpringQtzJobDetail"/>
+        <!-- cron表达式 -->
+        <property name="cronExpression" value="0/20 * * * * ?"/>
+    </bean>
+
+    <bean id="CronTriggerBean1"
+          class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+        <property name="jobDetail" ref="SpringQtzJobDetail1"/>
+        <!-- cron表达式 -->
+        <property name="cronExpression" value="0/30 * * * * ?"/>
+    </bean>
+    <!-- ======================== 调度工厂 ======================== -->
+    <bean id="SpringJobSchedulerFactoryBean"
+          class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+
+        <property name="applicationContextSchedulerContextKey" value="applicationContext"/>
+        <property name="configLocation" value="classpath:/quartz.properties"/>
+        <!--启动时更新己存在的Job，这样就不用每次修改targetObject后删除qrtz_job_details表对应记录了-->
+        <property name="overwriteExistingJobs" value="true"/>
+        <property name="triggers">
+            <list>
+                <ref bean="CronTriggerBean"/>
+                <ref bean="CronTriggerBean1"/>
+            </list>
+        </property>
+        <property name="jobDetails">
+            <list>
+                <ref bean="SpringQtzJobDetail"/>
+                <ref bean="SpringQtzJobDetail1"/>
+            </list>
+        </property>
+    </bean>
+</beans>
